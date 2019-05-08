@@ -1,0 +1,14 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping pattern="phpunit" type="PHP" />
+      <mapping pattern="ffff" type="PLAIN_TEXT" />
+      <mapping pattern="game" type="PLAIN_TEXT" />
+      <mapping pattern="lol" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="letsencrypt_user_data" type="PLAIN_TEXT" />
+      <mapping pattern="dddd" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

@@ -1,0 +1,33 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7f707d1a-b2ad-4f4a-873e-5a80323f7480" name="ct1" url="http://ks4.xif6.com">
+        <fileTransfer host="ks4.xif6.com" port="2251" privateKey="C:\Users\xif6\.ssh\id_rsa.ppk" rootFolder="/var/www/newsrss" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2251" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="05ef866e-daf5-437b-8aa6-ec1f6869bd2c" name="ks2" url="http://ks2.xif6.com">
+        <fileTransfer host="ks2.xif6.com" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9baf286e-c98c-4031-a19f-2eff12dbff43" name="wahrehouse_13" url="http://localhost">
+        <fileTransfer mountedRoot="X:\developpement\PhpstormProjects" accessType="MOUNT" />
+      </webServer>
+      <webServer id="4b994135-3360-4479-86c3-5d19d9421f6e" name="vagrant1" url="http://vagrant1.local">
+        <fileTransfer host="192.168.56.101" port="22" privateKey="D:\vagrant-boxes\vagrant2.local\puphpet\files\dot\ssh\id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

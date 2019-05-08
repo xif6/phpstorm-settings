@@ -1,0 +1,14 @@
+<application>
+  <component name="GithubAccounts">
+    <account id="c497619b-82ee-4f0a-a32f-ff7b5ec8436e" name="xif6">
+      <server host="github.com" />
+    </account>
+    <account id="d0dd99fe-c64c-4d7a-a638-98360d5b53c8" name="fpasini">
+      <server host="github.com" />
+    </account>
+  </component>
+  <component name="GithubSettings">
+    <option name="AUTH_TYPE" value="TOKEN" />
+    <option name="CLONE_GIT_USING_SSH" value="true" />
+  </component>
+</application>
